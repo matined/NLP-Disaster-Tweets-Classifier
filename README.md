@@ -19,4 +19,4 @@ Columns:
 ## Neural Network
 2-layer RNN with LSTM units, dropouts and one softmax unit in the end.
 
-The length of the sequence is set to 50, longer tweets are cut and shorter are padded.
+So far, the length of the sequence has been set to 50, longer tweets are cut and shorter are padded.
