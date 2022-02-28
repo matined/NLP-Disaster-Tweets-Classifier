@@ -47,10 +47,10 @@ def process_tweet(tweet: str) -> np.ndarray:
     return np.array(result)
 
 
-def load_dictionary() -> tuple:
-    word_to_vector = pickle.load(open('../data/dictionary/word_to_vector.pkl', 'rb'))
-    words_to_index = pickle.load(open('../data/dictionary/words_to_index.pkl', 'rb'))
-    index_to_words = pickle.load(open('../data/dictionary/index_to_words.pkl', 'rb'))
+def load_dictionary(directory) -> tuple:
+    word_to_vector = pickle.load(open(f'{directory}word_to_vector.pkl', 'rb'))
+    words_to_index = pickle.load(open(f'{directory}words_to_index.pkl', 'rb'))
+    index_to_words = pickle.load(open(f'{directory}index_to_words.pkl', 'rb'))
     return word_to_vector, words_to_index, index_to_words
 
 
