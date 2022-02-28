@@ -28,5 +28,5 @@ Just run the `main.py` file! You'll be asked to copy-paste a tweet you wannna pr
 So far, the length of the sequence has been set to 30, longer tweets are cut and shorter are padded.
 
 <p align="center">
-  <img src="./img/rnn.png" style="width:700px;"/>
+  <img src="./img/model.png" style="width:700px;"/>
 </p>
