@@ -23,7 +23,7 @@ Columns:
 Just run the `main.py` file! You'll be asked to copy-paste a tweet you wannna predict.
 
 ## Neural Network
-3-layer RNN with LSTM units, dropouts and two fully-connected layers in the end.
+4-layer RNN with LSTM units, dropouts and two fully-connected layers in the end.
 
 So far, the length of the sequence has been set to 30, longer tweets are cut and shorter are padded.
 
